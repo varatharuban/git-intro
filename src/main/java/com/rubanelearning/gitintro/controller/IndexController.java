@@ -32,4 +32,9 @@ public class IndexController {
 	public void calculateTax(Order order) {
 		System.out.println(order.getProductId());
 	}
+	
+	// Ninthu
+	public void sayThankYou(String name) {
+		System.out.println("Thank you " + name);	
+	}
 }
