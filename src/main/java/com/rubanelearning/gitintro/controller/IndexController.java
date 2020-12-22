@@ -12,6 +12,7 @@ public class IndexController {
 		System.out.println("Hi " + name);
 	}
 	
+	// Sabir
 	public void sayHello(String name) {
 		System.out.println("Hi " + name);	
 	}
