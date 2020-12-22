@@ -27,4 +27,9 @@ public class IndexController {
 	public void calculateShipping(Order order) {
 		System.out.println(order.getProductId());
 	}
+
+	// By Bernard
+	public void calculateTax(Order order) {
+		System.out.println(order.getProductId());
+	}
 }
