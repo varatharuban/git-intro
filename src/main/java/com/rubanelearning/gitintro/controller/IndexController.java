@@ -16,4 +16,9 @@ public class IndexController {
 	public void sayHello(String name) {
 		System.out.println("Hi " + name);	
 	}
+	
+	// Ninthu
+	public void sayThankYou(String name) {
+		System.out.println("Thank you " + name);	
+	}
 }
