@@ -11,4 +11,8 @@ public class IndexController {
 		}
 		System.out.println("Hi " + name);
 	}
+	
+	public void sayHello(String name) {
+		System.out.println("Hi " + name);	
+	}
 }
