@@ -1,14 +1,14 @@
 # Git basic commands
-- git status -> fatal: not a git repository (or any of the parent directories): .git
-- git init -> Initialize empty git repository in project directory. (.git folder will be created in the project directory. Every changes will be reflect in this folder)
-- git status
-- git add . -> It will add local files to staging index
-- git commit -m "Project skeleton has been added to local repository."
-- git log
+- ```git status``` -> fatal: not a git repository (or any of the parent directories): .git
+- ```git init``` -> Initialize empty git repository in project directory. (.git folder will be created in the project directory. Every changes will be reflect in this folder)
+- ```git status```
+- ```git add .``` -> It will add local files to staging index
+- ```git commit -m "Project skeleton has been added to local repository."```
+- ```git log```
 - <Modify in your source code>
-- git status
-- git commit -m "sayHi() method logic has changed."
-- git log --graph --decorate --all --pretty=oneline
+- ```git status```
+- ```git commit -m "sayHi() method logic has changed."```
+- ```git log --graph --decorate --all --pretty=oneline```
 
 ## Set remote repository
 ```git remote add origin https://github.com/varatharuban/git-intro.git```
@@ -18,3 +18,15 @@
 
 ### git commit => to local repository
 ### git push => to remote repository
+
+### Git Checkout
+```git clone <https://github.com/hhhh/kkk.git>```
+
+### Git Branches
+- ```git branch```
+- ```git branch <branch-name>```
+- ```git checkout <branch-name>```
+- ```git push origin <branch-name>```
+
+### Delete branch
+```git push origin --delete <branch-name>
