@@ -29,4 +29,4 @@
 - ```git push origin <branch-name>```
 
 ### Delete branch
-```git push origin --delete <branch-name>
+```git push origin --delete <branch-name>```
